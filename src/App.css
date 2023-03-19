@@ -1,0 +1,60 @@
+/* bg-gradient color #232424  #323232*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
+/* font-family: 'Barlow',
+sans-serif;
+font-family: 'Golos Text',
+sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+:root
+{
+  --purpleColor: rgb(255, 9, 255);
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.85rem 1.25rem;
+}
+
+.largeHeading {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 900;
+}
+
+.mediumHeading {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 700;
+}
+
+.smallHeading {
+  font-weight: 500;
+}
+
+.answers {
+  font-weight: 400;
+}
+
+
+/* styles */
+
+body 
+{
+    background: linear-gradient(#323232,#232424);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.page 
+{
+  height: 100vh;
+  padding: 15vh 0 0;
+}

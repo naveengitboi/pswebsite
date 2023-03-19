@@ -1,0 +1,28 @@
+.navbar 
+{
+    padding: 1.5rem 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222323;
+    position: fixed;
+    width: 100vw;
+    z-index: 5;
+}
+
+.navLinks 
+{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.navLinks a 
+{
+    color: white;
+}
+
+.navLinks a:hover 
+{
+    color: var(--purpleColor);
+    
+}
