@@ -1,0 +1,16 @@
+.footer 
+{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerLinks ul li 
+{
+    margin: 1.15rem;
+}
+.footerLinks li a:hover
+{
+    color: var(--purpleColor);
+}

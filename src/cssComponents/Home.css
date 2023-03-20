@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5rem;
+  padding: 0 0 0 5rem;
   position: relative;
 }
 .shapes {
@@ -24,9 +24,15 @@
   opacity: 1;
   background: var(--blueColor);
 }
+.shapeThree {
+  bottom: -100px;
+  left: -250px;
+  opacity: 1;
+  background: var(--greenColor);
+}
 .homeLogo .largeHeading {
   display: inline-block;
-  font-size: 8.8rem;
+  font-size: 7.5rem;
   cursor: pointer;
   transition: all 0.25s ease;
 }
@@ -40,8 +46,16 @@
 .contentHome a {
   background-color: var(--purpleColor);
 }
-
-/* .homeImage 
+.homeImage 
 {
-    
-} */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.homeImage img 
+{
+    width: 100%;
+    background-size: contain;
+
+}
