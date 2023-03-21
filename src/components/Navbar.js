@@ -6,7 +6,7 @@ function Navbar(){
             <h1 className="mediumHeading">Naveen</h1>
             <ul className="navLinks">
                 <li><NavLink to={'/'}>Home</NavLink></li>
-                <li><NavLink to={'/portfolio'}>Portfolio</NavLink></li>
+                <li><NavLink to={'/gallary'}>Gallary</NavLink></li>
                 <li><NavLink to={'/contact'}>Contact</NavLink></li>
             </ul>
 

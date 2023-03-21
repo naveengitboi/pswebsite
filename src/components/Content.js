@@ -4,7 +4,7 @@ import ImgCompo from '../images/ImgCompo'
 function Content(){
     return (
         <>
-            <Parallax strength={600} bgImage={ImgCompo[0][30]["image"]}>
+            <Parallax strength={200} bgImage={ImgCompo[0][29]["image"]}>
                 <div className="page contentPage">
                     <div className="leftContent">
                         <h1 className="largeHeading">Hey Peeps</h1>

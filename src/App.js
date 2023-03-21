@@ -5,12 +5,14 @@ import Home from './components/Home';
 import Faq from './components/Faq';
 import { Parallax } from 'react-parallax';
 import Footer from './components/Footer';
+import Gallary from './components/Gallary';
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path="/gallary" element={<Gallary/>}/>
         <Route path='/contact' element={<Faq/>} />
       </Routes>
       <Parallax>

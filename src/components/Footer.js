@@ -1,9 +1,10 @@
 import '../cssComponents/Footer.css'
-
+import RandomShapes from './RandomShapes'
 function Footer(){
     return(
         <>
             <div className="footer">
+                <RandomShapes/>
                 <div className="leftContent">
                     <h1 className="mediumHeading">Naveen</h1>
                     <p className="answer"> &copy; naveenjangiti </p>

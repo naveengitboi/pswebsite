@@ -32,7 +32,7 @@ const ImgCompo = [
         ,id:8
     },
     {
-        image : encodeURI('assets/photoshop/NIKE SHOES assets/photoshop.jpg')
+        image : encodeURI('assets/photoshop/NIKE SHOES PHOTOSHOP.jpg')
         ,id:9
     },{
         image : encodeURI('assets/photoshop/My edit 2.jpg')
@@ -114,15 +114,11 @@ const ImgCompo = [
         image : encodeURI('assets/photoshop/fortnite edit.jpg')
         ,id:29
     },
-     {
-        image : encodeURI('assets/photoshop/ps edited all.jpg.jpg')
-        ,id:30
-    },
+     
      {
         image : encodeURI('assets/photoshop/my edit ps logo resized.jpg')
-        ,id:31
+        ,id:30
     },
-    
 
     ],
 ]

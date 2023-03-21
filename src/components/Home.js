@@ -3,15 +3,15 @@ import '../cssComponents/Home.css'
 import { Parallax } from "react-parallax"
 import ImgCompo from "../images/ImgCompo"
 import Content from "./Content"
+import RandomShapes from "./RandomShapes"
+import ContentBody from "./ContentBody"
 function Home()
 {
     return(
         <>
            <Parallax strength={700} >
         <div className="page homePage">
-            <div className="shapes shapeOne"></div>
-            <div className="shapes shapeTwo"></div>
-            <div className="shapes shapeThree"></div>
+            <RandomShapes/>
             <div className="contentHome">
                 <div className="homeLogo">
                     <span className="largeHeading">N</span>
@@ -32,6 +32,7 @@ function Home()
         </div>
         </Parallax>
         <Content/>
+        <ContentBody/>
         
         </>
         

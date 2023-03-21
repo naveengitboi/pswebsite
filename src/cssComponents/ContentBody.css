@@ -1,0 +1,28 @@
+.contentBodyPage
+{
+    display: flex;
+    align-items: center;
+}
+
+.leftContentBody
+{
+    width: 50%;
+    overflow: hidden;
+    height: 100vh;
+}
+.leftContentBody img 
+{
+    width: 100%;
+    transform: scale(1);
+}
+.rightContentBody
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rightContentBody h1 
+{
+    text-align: center;
+}  
