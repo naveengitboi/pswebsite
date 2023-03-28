@@ -1,4 +1,4 @@
-import Faq from "./Faq"
+
 import '../cssComponents/Home.css'
 import { Parallax } from "react-parallax"
 import ImgCompo from "../images/ImgCompo"
