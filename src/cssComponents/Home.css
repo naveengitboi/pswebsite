@@ -35,3 +35,45 @@
     background-size: contain;
 
 }
+.contentPage {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+
+/* media queries */
+@media screen and (min-width:426px) and (max-width:769px) {
+  .homePage
+  {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.437),rgba(0, 0, 0, 0.551)), url('../images/my\ edit\ cards\ 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .homeLogo .largeHeading {
+    font-size: 4.5rem;
+  }
+
+  .homeImage{
+    display: none;
+    width: 10%;
+    border: 10px solid white;
+  }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+  .homeLogo .largeHeading 
+  {
+    font-size: 4.5rem;
+  }
+  .homeImage
+  {
+    width: 78%;
+  }
+
+}

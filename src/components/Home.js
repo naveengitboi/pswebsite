@@ -27,7 +27,7 @@ function Home()
                 <a href="https://naveenau.netlify.app/" target={'_blank'} >PORTFOLIO</a>
             </div>
             <div className="homeImage">
-                <img src={ImgCompo[0][24]["image"]} alt="" />
+                <img src={ImgCompo[0][32]["image"]} alt="" />
             </div>
         </div>
         </Parallax>

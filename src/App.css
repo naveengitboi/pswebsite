@@ -65,3 +65,39 @@ body
   height: 100vh;
   
 }
+
+/* media queries */
+@media screen and (min-width:426px) and (max-width:769px) {
+  .page
+  {
+    height: 95vh;
+  }
+  .largeHeading
+  {
+    font-size: 3.5rem;
+  }
+  .mediumHeading
+  {
+    font-size: 1.8rem;
+  }
+  .smallHeading
+  {
+    font-size: 1.1rem;
+    margin: .8rem 0;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1025px) {
+  .largeHeading
+  {
+    font-size: 4.4rem;
+  }
+  .mediumHeading
+  {
+    font-size: 2rem;
+  }
+  .smallHeading
+  {
+    font-size: 1.2rem;
+    margin: .8rem 0;
+  }
+}

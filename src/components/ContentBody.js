@@ -8,7 +8,7 @@ function ContentBody() {
       <Parallax>
         <div className="page contentBodyPage">
           <div className="leftContentBody">
-            <img src={ImgCompo[0][25]["image"]} alt="" />
+            <img src={ImgCompo[0][2]["image"]} alt="" />
           </div>
           <div className="rightContentBody">
             <h1 className='largeHeading'>

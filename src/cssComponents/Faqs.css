@@ -1,11 +1,9 @@
 #contactPage
 {
     padding: 15vh 0;
-}
-
-#contactPage {
     position: relative;
     height: 105vh;
+    text-align: center;
 }
 
 .page {
@@ -87,6 +85,7 @@ input[type="text"]:active {
     cursor: pointer;
 }
 
+/* mediaqueres */
 @media screen and (max-width: 427px) {
     #contactPage {
         width: 100vw;
@@ -125,5 +124,14 @@ input[type="text"]:active {
 
     .inputArea {
         width: 310px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+
+    .contactForm
+    {
+        left: 8%;
+        padding: 1rem 3rem;
     }
 }

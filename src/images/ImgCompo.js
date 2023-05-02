@@ -136,10 +136,6 @@ const ImgCompo = [
         image : encodeURI('assets/photoshop/magnus carlson texture.jpg')
         ,id:26
     },
-    {
-        image : encodeURI('assets/photoshop/magnus carlson smooth.jpg')
-        ,id:27
-    },
      {
         image : encodeURI('assets/photoshop/fortnite edit.jpg')
         ,id:28

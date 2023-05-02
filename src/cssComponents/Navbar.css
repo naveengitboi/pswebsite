@@ -26,3 +26,10 @@
     color: var(--purpleColor);
     
 }
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+    .navbar
+    {
+        padding: 1.25rem 15vw;
+    }
+}

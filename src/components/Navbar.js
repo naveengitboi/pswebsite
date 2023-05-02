@@ -4,6 +4,7 @@ function Navbar(){
     return(
         <div className="navbar">
             <h1 className="mediumHeading">Naveen</h1>
+            <div className="hamburger"></div>
             <ul className="navLinks">
                 <li><NavLink to={'/'}>Home</NavLink></li>
                 <li><NavLink to={'/gallary'}>Gallary</NavLink></li>
