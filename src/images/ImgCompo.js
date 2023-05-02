@@ -1,8 +1,42 @@
 const ImgCompo = [
     [{
-        image: encodeURI('assets/photoshop/batman edit.jpg')
+        image: encodeURI('assets/photoshop/horror poster.jpg')
         ,id:1
     },
+    {
+        image: encodeURI('assets/photoshop/batman vintage.jpg')
+        ,id:30
+    },
+    {
+        image: encodeURI('assets/photoshop/dictator movie poster old.jpg')
+        ,id:31
+    },
+    {
+        image: encodeURI('assets/photoshop/football edit final.jpg')
+        ,id:32
+    },
+    {
+        image: encodeURI('assets/photoshop/holy fuck series poster.jpg')
+        ,id:33
+    },
+    {
+        image: encodeURI('assets/photoshop/batman edit.jpg')
+        ,id:34
+    },
+    {
+        image: encodeURI('assets/photoshop/man vs robot original.jpg')
+        ,id:35
+    },
+    
+     {
+        image : encodeURI('assets/photoshop/car edit grains.jpg')
+        ,id:36
+    },
+     {
+        image : encodeURI('assets/photoshop/The darker.jpg')
+        ,id:41
+    },
+
     {
         image : encodeURI('assets/photoshop/brockLesner.jpg')
         ,id:2
@@ -107,18 +141,42 @@ const ImgCompo = [
         ,id:27
     },
      {
-        image : encodeURI('assets/photoshop/combined edit.jpg')
-        ,id:28
-    },
-     {
         image : encodeURI('assets/photoshop/fortnite edit.jpg')
-        ,id:29
+        ,id:28
     },
      
      {
         image : encodeURI('assets/photoshop/my edit ps logo resized.jpg')
-        ,id:30
+        ,id:29
     },
+    
+     {
+        image : encodeURI('assets/photoshop/free style.jpg')
+        ,id:37
+    },
+    {
+        image : encodeURI('assets/photoshop/gdsc corrections.jpg')
+        ,id:37
+    },
+    {
+        image : encodeURI('assets/photoshop/mea induc final.jpg')
+        ,id:38
+    },
+    {
+        image : encodeURI('assets/photoshop/nba player.jpg')
+        ,id:39
+    },
+    {
+        image : encodeURI('assets/photoshop/spotify cover page edit.jpg')
+        ,id:40
+    },
+      {
+        image : encodeURI('assets/photoshop/biryani final 1.jpg')
+        ,id:42
+    },
+   
+
+
 
     ],
 ]
