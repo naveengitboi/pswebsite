@@ -27,9 +27,73 @@
     
 }
 
-@media screen and (min-width:769px) and (max-width:1025px) {
+@media screen and (max-width:426px) {
     .navbar
     {
-        padding: 1.25rem 15vw;
+        padding: 1.25rem 10vw;
+    }
+    .navbar .mediumHeading 
+    {
+        z-index: -5;
+    }
+    .hamburger
+    {
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .hamburgerActive
+    {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: none;
+        border: 4px solid white;
+    }
+
+    .navLinks
+    {
+        position: absolute;
+        flex-direction: column;
+        line-height: 5;
+        background-color: rgba(0, 0, 0, 0.543);
+        width: 75%;
+        z-index: -1;
+        height: 100vh;
+        right: -100%;
+        padding: 5rem .85rem;
+        top: 0;
+        backdrop-filter: blur(0.85rem);
+        font-size: 2rem;
+    }
+    .navLinksActive 
+    {
+        position: absolute;
+            flex-direction: column;
+            line-height: 5;
+            background-color: rgba(0, 0, 0, 0.543);
+            width: 75%;
+            z-index: -1;
+            height: 100vh;
+            right: 0%;
+            padding: 5rem .85rem;
+            top: 0;
+            backdrop-filter: blur(0.85rem);
+            font-size: 2rem;
+    }
+    .navLinks li 
+    {
+        position: relative;
+    }
+    .navLinks li:after 
+    {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px ;
+        background-color: rgb(82, 82, 82);
     }
 }
