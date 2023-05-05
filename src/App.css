@@ -67,6 +67,24 @@ body
 }
 
 /* media queries */
+@media screen and (max-width:426px) {
+  .page {
+    height: 95vh;
+  }
+
+  .largeHeading {
+    font-size: 2.5rem;
+  }
+
+  .mediumHeading {
+    font-size: 1.4rem;
+  }
+
+  .smallHeading {
+    font-size: 1.1rem;
+    margin: .8rem 0;
+  }
+}
 @media screen and (min-width:426px) and (max-width:769px) {
   .page
   {

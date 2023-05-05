@@ -35,6 +35,7 @@
     background-size: contain;
 
 }
+/* content page */
 .contentPage {
   display: flex;
   justify-content: flex-start;
@@ -44,6 +45,34 @@
 
 
 /* media queries */
+
+@media screen and (max-width:426px) {
+  .homePage {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.437), rgba(0, 0, 0, 0.551)), url('../images/my\ edit\ cards\ 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.85rem;
+    
+  }
+
+  .homeLogo .largeHeading {
+    font-size: 2.5rem;
+  }
+
+  .homeImage {
+    display: none;
+  }
+
+    .contentPage {
+      padding: 1.85rem;
+    }
+
+}
+
+
 @media screen and (min-width:426px) and (max-width:769px) {
   .homePage
   {
@@ -60,8 +89,6 @@
 
   .homeImage{
     display: none;
-    width: 10%;
-    border: 10px solid white;
   }
 
 }

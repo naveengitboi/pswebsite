@@ -94,7 +94,8 @@ input[type="text"]:active {
     }
 
     .contactForm {
-        padding: 0;
+        padding: 0.85rem;
+        left: 1rem;
     }
 
     .contactForm form div {
@@ -106,12 +107,11 @@ input[type="text"]:active {
     }
 
     input {
-        width: 200px;
+        width: 15rem;
     }
 
     .inputArea {
-        width: 180px;
-        padding: 0.85rem;
+        width: 11rem;
         margin: 0;
         padding: 0.25rem;
     }
@@ -124,6 +124,14 @@ input[type="text"]:active {
 
     .inputArea {
         width: 310px;
+    }
+    .contactForm
+    {
+        padding: 2rem;
+    }
+    .socialLinks a
+    {
+        font-size: 32px;
     }
 }
 

@@ -32,6 +32,29 @@
 }
 
 /* media queries */
+@media screen and (max-width:426px){
+    .contentBodyPage {
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.593)), url('../images/The\ darker.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .leftContentBody {
+        display: none;
+    }
+    .rightContentBody
+    {
+        padding: 1rem;
+    }
+    .rightContentBody h1
+    {
+        text-align: left;
+    }
+
+
+}
 @media screen and (min-width:426px) and (max-width:769px) {
     .contentBodyPage {
         justify-content: center;
@@ -42,7 +65,6 @@
     }
 
     .leftContentBody {
-        margin: 0 1rem 0 0;
         display: none;
     }
 
