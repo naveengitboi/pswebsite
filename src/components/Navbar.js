@@ -11,6 +11,11 @@ function Navbar(){
             setHamburger(prev => prev = 'hamburgerActive')
             setNavlinks(prev => prev = 'navLinksActive')
         }
+        else{
+            setHamburger(prev => prev = 'hamburger')
+            setNavlinks(prev => prev = 'navLinks')
+        }
+        setActive(prev => !prev)
 
     }
 
