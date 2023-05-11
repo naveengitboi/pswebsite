@@ -12,6 +12,7 @@ function Home()
            <Parallax strength={700} >
         <div className="page homePage">
             <RandomShapes/>
+            
             <div className="contentHome">
                 <div className="homeLogo">
                     <span className="largeHeading">N</span>
@@ -24,7 +25,7 @@ function Home()
                     <span className="largeHeading">J</span>
                 </div>
                 <p className="smallHeading">WEB  PS  Ai</p>
-                <a href="https://naveenau.netlify.app/" target={'_blank'} >PORTFOLIO</a>
+                <a href="https://naveenau.netlify.app/" rel="noreferrer" target={'_blank'} >PORTFOLIO</a>
             </div>
             <div className="homeImage">
                 <img src={ImgCompo[0][32]["image"]} alt="" />
@@ -40,3 +41,7 @@ function Home()
 }
 
 export default Home
+
+
+//style='display: inline-block;
+

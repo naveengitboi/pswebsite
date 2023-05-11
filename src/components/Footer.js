@@ -4,7 +4,7 @@ function Footer(){
     return(
         <>
             <div className="footer">
-                <RandomShapes/>
+                
                 <div className="leftContent">
                     <h1 className="mediumHeading">Naveen</h1>
                     <p className="answer"> &copy; naveenjangiti </p>
@@ -17,7 +17,11 @@ function Footer(){
                         <li><a href="https://www.behance.net/naveenau" target={"_blank"}>Behance</a></li>
                     </ul>
                 </div>
+                <div className='footerShapes'>
+                    <RandomShapes />
+                </div>
             </div>
+            
         </>
     )
 }

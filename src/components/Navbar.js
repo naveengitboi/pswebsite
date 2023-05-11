@@ -21,6 +21,8 @@ function Navbar(){
 
 
     return(
+        <>
+         
         <div className="navbar">
             <h1 className="mediumHeading">Naveen</h1>
             <div className={hamburger} onClick={()=> handleMenu()}></div>
@@ -28,9 +30,11 @@ function Navbar(){
                 <li><NavLink to={'/'}>Home</NavLink></li>
                 <li><NavLink to={'/gallary'}>Gallary</NavLink></li>
                 <li><NavLink to={'/contact'}>Contact</NavLink></li>
+                <li ><a href="https://www.fiverr.com/naveen_webdesig" className="freelance">Fiverr</a></li>
             </ul>
 
         </div>
+        </>
     )
 }
 

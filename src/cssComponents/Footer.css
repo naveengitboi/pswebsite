@@ -4,13 +4,22 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+        z-index: 50;
 }
 
 .footerLinks ul li 
 {
+    z-index: 50;
     margin: 1.15rem;
 }
 .footerLinks li a:hover
 {
+    z-index: 50;
     color: var(--purpleColor);
+}
+
+.footerShapes
+{
+    position: absolute;
+    z-index: -50;
 }

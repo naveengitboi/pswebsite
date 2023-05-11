@@ -9,6 +9,7 @@
   z-index: 5;
 }
 
+
 .navLinks {
   display: flex;
   text-transform: uppercase;
@@ -20,6 +21,10 @@
 
 .navLinks a:hover {
   color: var(--purpleColor);
+}
+.freelance
+{
+  background-color: #3cff3c;
 }
 
 @media screen and (max-width: 426px) {
