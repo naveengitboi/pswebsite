@@ -1,5 +1,44 @@
+
+
 const ImgCompo = [
     [{
+        image: encodeURI('assets/photoshop/Fast and furious x.jpg')
+        ,id:43
+    },
+    {
+        image: encodeURI('assets/photoshop/sid new birtday edit.jpg')
+        ,id:44
+    },
+    {
+        image: encodeURI('assets/photoshop/sid edit v3.jpg')
+        ,id:45
+    },
+     {
+        image: encodeURI('assets/photoshop/godzilla edit original.jpg')
+        ,id:46
+    },
+     {
+        image: encodeURI('assets/photoshop/Balagam movie poster.jpg')
+        ,id:47
+    },
+     {
+        image: encodeURI('assets/photoshop/boyapatirepo.jpg')
+        ,id:48
+    },
+     {
+        image: encodeURI('assets/photoshop/ustaad movie poster v2.jpg')
+        ,id:49
+    },
+     {
+        image: encodeURI('assets/photoshop/Scifi edit.jpg')
+        ,id:50
+    },
+     {
+        image: encodeURI('assets/photoshop/rana naidu series poster.jpg')
+        ,id:51
+    },
+    
+    {
         image: encodeURI('assets/photoshop/horror poster.jpg')
         ,id:1
     },
