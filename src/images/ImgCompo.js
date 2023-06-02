@@ -1,7 +1,11 @@
 
 
 const ImgCompo = [
-    [{
+    [
+        {
+        image: encodeURI('assets/photoshop/combined.jpg')
+        ,id:52
+    },{
         image: encodeURI('assets/photoshop/Fast and furious x.jpg')
         ,id:43
     },
